@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package interview.sudokusolver;
+
 
 import java.util.Queue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -19,6 +19,11 @@ public class Cell {
     int row;    
     int col;    
 
+    public Cell() {
+    
+    }
+    
+    
     public Cell(int t_row, int t_col, Queue<Integer> t_priorityValueList) {
         this.row=t_row;
         this.col=t_col;
